@@ -1,25 +1,7 @@
 [
   {
     "title": "Home",
-    "to": "#!",
-    "subMenu": [
-      {
-        "title": "Homepage 01",
-        "to": "/"
-      },
-      {
-        "title": "Homepage 02",
-        "to": "/home/homepage2"
-      },
-      {
-        "title": "Homepage 03",
-        "to": "/home/homepage3"
-      },
-      {
-        "title": "Homepage 04",
-        "to": "/home/homepage4"
-      }
-    ]
+    "to": "#!"
   },
   {
     "title": "Services",

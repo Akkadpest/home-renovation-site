@@ -26,23 +26,31 @@ const BannerOne = ({ type }) => {
         <section className={`section banner sm:py-16 py-10`}>
             <h3 className="blind">Banner</h3>
             <Marquee>
-                <strong className={`heading2 lg:px-15 sm:px-10 px-5`}>Leak Detection</strong>
-                <Image src={`/images/logo_${logos.find(item => item.type === type)?.logo || 'orange'}.png`} width={2000} height={2000} alt='logo_orange' className='max-w-8' />
-                <strong className={`heading2 lg:px-15 sm:px-10 px-5`}>Drain Cleaning</strong>
-                <Image src={`/images/logo_${logos.find(item => item.type === type)?.logo || 'orange'}.png`} width={2000} height={2000} alt='logo_orange' className='max-w-8' />
-                <strong className={`heading2 lg:px-15 sm:px-10 px-5`}>Pipe Installation</strong>
-                <Image src={`/images/logo_${logos.find(item => item.type === type)?.logo || 'orange'}.png`} width={2000} height={2000} alt='logo_orange' className='max-w-8' />
-                <strong className={`heading2 lg:px-15 sm:px-10 px-5`}>Heater Installation</strong>
-                <Image src={`/images/logo_${logos.find(item => item.type === type)?.logo || 'orange'}.png`} width={2000} height={2000} alt='logo_orange' className='max-w-8' />
-                <strong className={`heading2 lg:px-15 sm:px-10 px-5`}>Leak Detection</strong>
-                <Image src={`/images/logo_${logos.find(item => item.type === type)?.logo || 'orange'}.png`} width={2000} height={2000} alt='logo_orange' className='max-w-8' />
-                <strong className={`heading2 lg:px-15 sm:px-10 px-5`}>Drain Cleaning</strong>
-                <Image src={`/images/logo_${logos.find(item => item.type === type)?.logo || 'orange'}.png`} width={2000} height={2000} alt='logo_orange' className='max-w-8' />
-                <strong className={`heading2 lg:px-15 sm:px-10 px-5`}>Pipe Installation</strong>
-                <Image src={`/images/logo_${logos.find(item => item.type === type)?.logo || 'orange'}.png`} width={2000} height={2000} alt='logo_orange' className='max-w-8' />
-                <strong className={`heading2 lg:px-15 sm:px-10 px-5`}>Heater Installation</strong>
-                <Image src={`/images/logo_${logos.find(item => item.type === type)?.logo || 'orange'}.png`} width={2000} height={2000} alt='logo_orange' className='max-w-8' />
-            </Marquee>
+  <strong className="heading2 lg:px-15 sm:px-10 px-5">Leak Detection</strong>
+  <Image src="/images/o&n-renovation.png" width={2000} height={2000} alt="O and N Logo" className="max-w-8" />
+  
+  <strong className="heading2 lg:px-15 sm:px-10 px-5">Drain Cleaning</strong>
+  <Image src="/images/o&n-renovation.png" width={2000} height={2000} alt="O and N Logo" className="max-w-8" />
+  
+  <strong className="heading2 lg:px-15 sm:px-10 px-5">Pipe Installation</strong>
+  <Image src="/images/o&n-renovation.png" width={2000} height={2000} alt="O and N Logo" className="max-w-8" />
+  
+  <strong className="heading2 lg:px-15 sm:px-10 px-5">Heater Installation</strong>
+  <Image src="/images/o&n-renovation.png" width={2000} height={2000} alt="O and N Logo" className="max-w-8" />
+  
+  <strong className="heading2 lg:px-15 sm:px-10 px-5">Leak Detection</strong>
+  <Image src="/images/o&n-renovation.png" width={2000} height={2000} alt="O and N Logo" className="max-w-8" />
+  
+  <strong className="heading2 lg:px-15 sm:px-10 px-5">Drain Cleaning</strong>
+  <Image src="/images/o&n-renovation.png" width={2000} height={2000} alt="O and N Logo" className="max-w-8" />
+  
+  <strong className="heading2 lg:px-15 sm:px-10 px-5">Pipe Installation</strong>
+  <Image src="/images/o&n-renovation.png" width={2000} height={2000} alt="O and N Logo" className="max-w-8" />
+  
+  <strong className="heading2 lg:px-15 sm:px-10 px-5">Heater Installation</strong>
+  <Image src="/images/o&n-renovation.png" width={2000} height={2000} alt="O and N Logo" className="max-w-8" />
+</Marquee>
+
         </section>
     )
 }

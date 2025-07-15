@@ -11,7 +11,7 @@ export default function HeaderThree(props) {
         <div className="header_main flex items-center justify-between lg:h-[8.75rem] h-20">
           <h1 className="block flex-shrink-0 2xl:px-15 px-5">
             <Link href="/" className="logo flex items-center gap-3">
-              <Image width={2000} height={2000} src="/images/on-logo.png" className="flex-shrink-0 w-10" alt="logo" />
+              <Image width={2000} height={2000} src="/images/o&n-renovation.png" className="flex-shrink-0 w-10" alt="logo" />
               <strong className="heading4">O and N Home Renovation </strong>
             </Link>
           </h1>

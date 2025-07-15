@@ -10,7 +10,7 @@ export default function MenuFour() {
     <div className="header_main flex items-center justify-between absolute top-11 left-0 w-full sm:h-25 h-20 lg:px-10 px-4 bg-[#000] bg-opacity-[12%] backdrop-blur">
       <h1>
         <Link href="/" className="logo flex items-center gap-3">
-          <Image width={1000} height={1000} src="/images/logo_red.png" className="flex-shrink-0 w-10" alt="logo" />
+          <Image width={1000} height={1000} src="/images/o&n-renovation.png" className="flex-shrink-0 w-10" alt="logo" />
           <strong className="heading4 text-white">O & N Renovation</strong>
         </Link>
       </h1>

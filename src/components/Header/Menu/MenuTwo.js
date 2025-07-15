@@ -11,7 +11,7 @@ export default function MenuTwo() {
       <div className="header_main flex items-center justify-between absolute top-0 left-0 w-full sm:h-25 h-20 xl:px-10 px-6">
         <h1>
           <Link href="/" className="logo flex items-center gap-3">
-            <Image width={1000} height={1000} src="/images/logo_blue.png" className="flex-shrink-0 w-10" alt="logo" />
+            <Image width={1000} height={1000} src="/images/o&n-renovation.png" className="flex-shrink-0 w-10" alt="logo" />
             <strong className="heading4 text-white">O & N RenovationO & N Renovation</strong>
           </Link>
         </h1>
